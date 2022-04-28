@@ -1,0 +1,3 @@
+How to setup aws cli : https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+How to generate aws cli configs: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-creds 
+Diff b/w IAM administratorpoliy access user and root user: https://docs.aws.amazon.com/general/latest/gr/root-vs-iam.html#aws_tasks-that-require-root 
