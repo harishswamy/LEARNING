@@ -6,3 +6,24 @@ Docker full video
     
 
 Docker commands: 
+docker --version 
+docker images 
+docker pull <image_name>
+docker run -it --name <container_name> <image_name>
+    options: --interactive , -i		Keep STDIN open even if not attached
+             --tty , -t		Allocate a pseudo-TTY
+             --detach , -d		Run container in background and print container ID
+             --hostname , -h		Container host name
+             --name		Assign a name to the container
+docker run -it -d --name <container_name> <image_name>
+docker stop <container_name> - To stop container 
+docker start <container_name> - To start container
+docker container stop <container_id> - To stop container
+docker container start <container_id> - To start container
+docker exec -it <container_name> bash - to login/ connect to container 
+docker exec -it <container_name> ls -  execute command in container without login.  
+docker exec -it -e var=1(variable_name=variable_value) <container_name> bash
+docker pause <container_name> - pause container
+docker unpause <container_name> - unpause container
+
+TASK : what is the diff b/w pause/kill/stop container. 
