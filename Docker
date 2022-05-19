@@ -53,3 +53,16 @@ TASK : what is the diff b/w pause/kill/stop container.
 docker restart <container_name> - to restart container , it may useful to restart any service like nginx. 
 
 dokcer build -t <repository_name>:<tag_name> <path of Dockerifle>
+
+docker images -q - to print only docker images id's 
+docker rmi $(docker images -f "dangling=true" -q) - to remove all dangling images , which images doesn't have repository name and tag name those are called as dangling iamges. 
+docker rmi $(docker images -q ) - to remove all images 
+docker images <repository_name> - print images which are matched with mentioned repository name
+docker iamges <repository_name>:<tag> - print images which are matched with mentioned repository name and tag name 
+docker images --no-trunc - to print full imageid 
+docker images --filter "before=<repository_name>" - to print images which created before mentioned image
+docker images --filter "since=<repository_name>" - to print images which created after mentioned image
+docker images --filter=reference='busy*:*libc' - print images based on reference regular expression
+docker images --format "table {{.ID}}\t{{.Repository}}\t{{.Tag}}" - print image info by specfic format
+docker images --format "table {{.ID}}:{{.Repository}}:{{.Tag}}"
+
