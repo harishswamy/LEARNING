@@ -49,3 +49,7 @@ docker pause <container_name> - Pause all processes within one or more container
 docker unpause <container_name> - Unpause all processes within one or more containers
 
 TASK : what is the diff b/w pause/kill/stop container. 
+
+docker restart <container_name> - to restart container , it may useful to restart any service like nginx. 
+
+dokcer build -t <repository_name>:<tag_name> <path of Dockerifle>
