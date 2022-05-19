@@ -26,7 +26,8 @@ terraform funtions
 
 diff b/w ecs and eks 
 
-defautl network of docker container 
+default network of docker container 
 
 diff b/w docker CMD and ENTRYPOINT
 
+what will be happen if particular resource failed in terraform state 
