@@ -20,6 +20,18 @@ docker run -it --name <container_name> <image_name>
              --detach , -d		Run container in background and print container ID
              --hostname , -h		Container host name
              --name		Assign a name to the container
+             --env , -e		Set environment variables
+             --env-file		Read in a file of environment variables
+             --expose		Expose a port or a range of ports
+             --hostname , -h		Container host name
+             --ip		IPv4 address (e.g., 172.30.100.104)
+             --memory , -m		Memory limit
+             --net		Connect a container to a network
+             --rm		Automatically remove the container when it exits
+             --runtime		Runtime to use for this container
+             --volume , -v		Bind mount a volume
+             --volumes-from		Mount volumes from the specified container(s)
+             --workdir , -w		Working directory inside the container
 
 #
 creates an interactive container with a pseudo-TTY attached, then starts the container and attaches to it, 
