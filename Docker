@@ -38,7 +38,7 @@ creates an interactive container with a pseudo-TTY attached, then starts the con
 docker container create -i -t --name mycontainer alpine
 docker container start --attach -i mycontainer 
 # NOTE: The above is the equivalent of a docker run 
-docker run -it -d --name <container_name> <image_name>
+docker run -it -d  -p 8080:80  -v /root/test:/tmp --name<container_name> <image_name>  --> Bind volume
 
 docker stop <container_name> - To stop container 
 
@@ -77,4 +77,11 @@ docker images --filter "since=<repository_name>" - to print images which created
 docker images --filter=reference='busy*:*libc' - print images based on reference regular expression
 docker images --format "table {{.ID}}\t{{.Repository}}\t{{.Tag}}" - print image info by specfic format
 docker images --format "table {{.ID}}:{{.Repository}}:{{.Tag}}"
+
+docker volume ls - list volumes
+docker volume create <volume_name> - create volume 
+docker volume rm <volume_name> - remove volume 
+docker volume inspect <volume_name> - Display detailed information on one or more volumes
+docker volume prune	- Remove all unused local volumes
+* volumes data stored in under /var/lib/docker/volumes/<volume_name>/_data in docker engine host / Base machine 
 
