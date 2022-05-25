@@ -85,3 +85,10 @@ docker volume inspect <volume_name> - Display detailed information on one or mor
 docker volume prune	- Remove all unused local volumes
 * volumes data stored in under /var/lib/docker/volumes/<volume_name>/_data in docker engine host / Base machine 
 
+docker cp <src_path> container_name:<dest_path> - To copy files from base machine to container 
+
+
+
+
+
+
