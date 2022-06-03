@@ -31,3 +31,24 @@ default network of docker container
 diff b/w docker CMD and ENTRYPOINT
 
 what will be happen if particular resource failed in terraform state 
+
+How to send packet between two docker containers
+What is canary deployment in Kubernetes?
+headless service in kubernetes ?
+statepull set in kubernetes ?
+how to see logs of dead pod in kubernetes?
+quorum concept in kubernetes?
+what is cloudtrail/cloudfront in aws ?
+server hardening ec2 aws ?
+elastic transducers in aws ?
+what is ddos attack?
+ansible module idempotent ?
+local-exec / remote-exec provisioner in ansible ? 
+how to recover terraform state file?
+why docker image size is reduce if layers are less ? what is the concept ? 
+how to scale containers in docker / kubernetes ?
+what is /usr in linux ?
+what is daemon in linux ? how to configure it ? 
+ex: systemd 
+
+
