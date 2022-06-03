@@ -21,6 +21,7 @@ How to send packet between two docker containers
 What is canary deployment in Kubernetes?
 headless service in kubernetes ?
 statepull set in kubernetes ?
+staticpod in kubernets ? 
 how to see logs of dead pod in kubernetes?
 quorum concept in kubernetes?
 what is cloudtrail/cloudfront in aws ?
