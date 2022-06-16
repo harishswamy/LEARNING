@@ -49,3 +49,8 @@ How to set separate agents for stages in Jenkins ?
 How to execute command once previous resource execution is done in terraform ?
 How to check resource exit status in terraform?
 How to check env variables of pod ?
+Deployment strategies in k8s ?
+Canary deployment 
+Blue green deployment 
+Recreate 
+Rolling update 
