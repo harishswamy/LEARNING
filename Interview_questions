@@ -41,4 +41,9 @@ What is Internet gateway ?
 Difference b/w security groups and ncl's ? both are firewalls, SG - ec2 instance level firewall , ncl - network level firewall 
 How to pass module to Ansible ? 
 What is role in ansible ? 
+Config map in kubernetes?
+What is the difference between vertical scaling and horizontal scaling ?
+How to use previous module output as variable in another module in ansible ? 
+What is git -c option ?
+How to set separate agents for stages in Jenkins ?
 
