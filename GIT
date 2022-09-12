@@ -1,0 +1,2 @@
+how to clone single branch
+git clone --branch <sub_branch> --single-branch <repository_url>
